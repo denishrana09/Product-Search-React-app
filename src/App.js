@@ -4,7 +4,7 @@ import { FilterableProductTable } from './FilterableProductTable';
 class App extends Component {
   render() {
     return (
-      <div>
+      <div className="ProductTable">
         <FilterableProductTable products = { PRODUCTS }/>
       </div>
     );
